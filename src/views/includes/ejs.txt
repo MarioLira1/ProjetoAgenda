@@ -1,0 +1,11 @@
+"<%" tag para controle de fluxo (if,fot, else) e sempre deve ser fechadp %>
+"<%=" tag imprime espacapando caractere = mostra %>
+"<%=" tag imprime sem espacapando caractere = executa %>
+
+
+execução:
+<% if(algumacoisa) {%>
+    <%= exibe alguma coisa %>
+    <% } else {%>
+    <%= exibe outra coisa %>
+    <% } %>
